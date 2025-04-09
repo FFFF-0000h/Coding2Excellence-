@@ -1,7 +1,7 @@
 /*
  *
-	A natural number x composed of 4 digits is read. Display the number obtained from the sum of the numbers obtained by successively removing one of the digits of x
-
+	A natural number x composed of 4 digits is read. Display the number obtained from the sum of the numbers obtained by successively removing one of the digits of x. E.g If x = 2347, the result is 347 + 247 + 237 + 234 = 1065
+	
  *
 	 % (modulo) gets the last digit, and the Remainder
 	 / (integer division) chops off the rightmost digit, and gets the Quotient
