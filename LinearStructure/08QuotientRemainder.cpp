@@ -23,4 +23,5 @@ int main()
 	secondTwoDigits = (tenth * 10) + unit;
 	cout<<"The Quotient of the first two digits by the last two digits = "<<firstTwoDigits / secondTwoDigits<<endl;
 	cout<<"The Remainder of the first two digits by the last two digits = "<<firstTwoDigits % secondTwoDigits<<endl;
+	return 0;
 }
