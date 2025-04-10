@@ -17,7 +17,12 @@ using namespace std;
 
 int main()
 {
-	int n,sumN;
+	unsigned int n,sumN;
+	/*
+	 *
+	 unsigned int ensures that only non-negative numbers are used. This makes sense here because the sum involves natural numbers, which are always positive
+	 * 
+	*/
 	cout<<"Input a natural number: ";
 	cin>>n;
 	sumN = (n * (n + 1)) / 2;
