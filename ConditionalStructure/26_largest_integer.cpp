@@ -19,13 +19,10 @@ int main()
         cin>>z;
 	if (x >= y) {
 		max = x;
-	} else if (x >= z) {
-		max = x;
-	} else if (y >= x) {
-		max = y;
-	} else if (y >= z) {
-		max = y;
 	} else {
+		max  = y;
+	}
+	if (z >= max) {
 		max = z;
 	}
 	cout<<"The largest number is: "<<max<<endl;
