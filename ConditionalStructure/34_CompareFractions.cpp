@@ -27,7 +27,7 @@ using namespace std;
 
 int main()
 {
-	int a,b,c,d,crossMult1,crossMult2;
+	long long a,b,c,d,crossMult1,crossMult2;
 	cout<<"Input a non-zero integer, a: ";
 	cin>>a;
 	cout<<"Input a non-zero integer, b: ";
