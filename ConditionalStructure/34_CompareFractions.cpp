@@ -42,10 +42,10 @@ int main()
 
 	if(crossMult1 > crossMult2)
 	{
-		cout<<a<<"/"<<b<<" is greater"<<endl;
+		cout<<a<<"/"<<b<<endl;
 	} else if(crossMult2 > crossMult1)
 	{
-		cout<<c<<"/"<<d<<" is greater"<<endl;
+		cout<<c<<"/"<<d<<endl;
 	} else {
 		cout<<"The fractions are equal"<<endl;
 	}
