@@ -57,6 +57,7 @@ int main()
 		large = z;
 	}
 
+	//This is to extract the two digits which failed the large test
 	if(large == x)
 	{
 		a = y;
@@ -69,8 +70,9 @@ int main()
 		b = y;
 	}
 
-	c = large;
+	c = large; //The hypotenuse
 
+	//c<squared> = a<squared> + b<squared>
 	if(pow(c,2) == (pow(a,2) + pow(b,2)))
 	{
 		cout<<"YES"<<endl;
