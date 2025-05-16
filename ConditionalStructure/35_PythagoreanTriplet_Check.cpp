@@ -57,6 +57,8 @@ int main()
 		large = z;
 	}
 
+	c = large; //Hypotenuse
+
 	//This is to extract the two digits which failed the large test
 	if(large == x)
 	{
@@ -69,8 +71,6 @@ int main()
 		a = x;
 		b = y;
 	}
-
-	c = large; //The hypotenuse
 
 	//c<squared> = a<squared> + b<squared>
 	if(pow(c,2) == (pow(a,2) + pow(b,2)))
